@@ -17,3 +17,11 @@ OJO AL SUBIR ARCHIVOS
   - Los nombres tienen que quedar exactos: sin " (1)", sin punto ni espacio al final.
   - Subir cada archivo dentro de su carpeta.
   - Despues de cada cambio, esperar el tilde verde y abrir con Ctrl + F5.
+
+LOGIN (usuario y clave)
+  El inicio, el cotizador y la app de altas piden usuario y clave.
+  Los links de firma que se mandan al cliente NO piden login.
+  Es una proteccion basica: frena a quien encuentre el link, pero no es
+  seguridad fuerte (el repositorio es publico).
+  Para cambiar usuario o clave: pedirle a Claude el hash nuevo y reemplazarlo
+  en los 3 archivos (index.html, cotizador/index.html, altas/index.html).
