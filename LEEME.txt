@@ -1,0 +1,19 @@
+HERRAMIENTAS OMINT PYME - cotizadordigital.store
+
+ESTRUCTURA
+  index.html        pagina de inicio (botones Cotizador / Altas y firmas)
+  CNAME             dominio propio (no borrar)
+  .nojekyll         necesario para GitHub Pages (no borrar)
+  cotizador/        cotizador  -> cotizadordigital.store/cotizador/
+  altas/            app de altas y firmas -> cotizadordigital.store/altas/
+
+ACTUALIZAR
+  Precios del cotizador:      cotizador/js/data.js
+  Precios de la app de altas: reemplazar altas/cotizador.xlsx (mismo nombre)
+  Formulario de Omint:        reemplazar altas/formulario_omint.pdf (mismo nombre)
+                              y probar un alta de punta a punta.
+
+OJO AL SUBIR ARCHIVOS
+  - Los nombres tienen que quedar exactos: sin " (1)", sin punto ni espacio al final.
+  - Subir cada archivo dentro de su carpeta.
+  - Despues de cada cambio, esperar el tilde verde y abrir con Ctrl + F5.

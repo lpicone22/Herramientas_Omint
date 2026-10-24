@@ -1,0 +1,21 @@
+ALTA PYME OMINT - v3
+
+Subir estos 3 archivos JUNTOS, en la misma carpeta, al hosting:
+  index.html            la herramienta (no hace falta tocarla)
+  formulario_omint.pdf  el formulario de Omint (el que se completa)
+  cotizador.xlsx        lista de precios AMBA, tal como la envia Omint
+
+Para actualizar:
+  - Precios nuevos: reemplazar cotizador.xlsx por el nuevo (mismo nombre).
+  - Formulario nuevo de Omint: reemplazar formulario_omint.pdf (mismo nombre)
+    y revisar con un caso de prueba que los campos sigan cayendo en su lugar.
+
+LINK PARA QUE EL CLIENTE FIRME (seccion 8 de la herramienta)
+  - Solo funciona abriendo la herramienta desde el link https:// del hosting.
+  - El link lleva los datos del tramite comprimidos (incluidos CBU/tarjeta y DJS) y vence a las 48 hs.
+  - Los datos viajan en la parte del link posterior al # y no se envian al hosting.
+  - Quien tenga el link puede ver esos datos: enviarlo solo al cliente.
+
+Importante: abrir la herramienta desde el link del hosting (https://...).
+Abriendo index.html directo desde la carpeta no puede leer los otros 2 archivos.
+Si un archivo no se encuentra, usa la lista de precios incluida o el PDF incluido (solo en la version de Claude).
